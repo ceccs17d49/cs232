@@ -1,0 +1,92 @@
+Script started on Monday 01 April 2019 10:42:05 AM IST
+]0;s4d2@CC2-25: ~s4d2@CC2-25:~$ sftp cs17d49@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d49@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+ceccs17d49.01.04.19.txt   examples.desktop          script                    
+sftp> pwd
+Remote working directory: /home/cs17d49
+sftp> put sreelal/task5/ceccs17d49.01.04.19.txt
+stat sreelal/task5/ceccs17d49.01.04.19.txt: No such file or directory
+sftp> put sreelal/task5/ceccs17d49.01.04.19.txt
+stat sreelal/task5/ceccs17d49.01.04.19.txt: No such file or directory
+sftp> ls
+ceccs17d49.01.04.19.txt   examples.desktop          script                    
+sftp> put sreelal/task5/ceccs17d49.01.04.19.txt
+stat sreelal/task5/ceccs17d49.01.04.19.txt: No such file or directory
+sftp> put sreelal/task5/ceccs17d49.01.04.19.txt[7Gls[Kput sreelal/task5/ceccs17d49.01.04.19.txt[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc[Pc
+Uploading ceccs17d49.01.04.19.txt to /home/cs17d49/ceccs17d49.01.04.19.txt
+ceccs17d49.01.04.19.txt                       100%    0     0.0KB/s   00:00    
+sftp> ls
+ceccs17d49.01.04.19.txt   examples.desktop          script                    
+sftp> mkdir script
+Couldn't create directory: Failure
+sftp> mkdir script
+Couldn't create directory: Failure
+sftp> mkdir script1
+sftp> cd script 1
+sftp> put sreelal/task[K[K[Ksk5.sh
+stat sreelal/tsk5.sh: No such file or directory
+sftp> put[Ksftp> put 
+Desktop/                                                                        
+Documents/                                                                      
+Downloads/                                                                      
+Music/                                                                          
+Pictures/                                                                       
+Public/                                                                         
+Templates/                                                                      
+Videos/                                                                         
+a.txt                                                                           
+abc.txt                                                                         
+b.txt                                                                           
+ceccs17d49.01.04.19.txt                                                         
+cgpa/                                                                           
+examples.desktop                                                                
+result.pdf                                                                      
+result1.txt                                                                     
+result1.txt~                                                                    
+result_one_per_line.txt                                                         
+s1/                                                                             
+s2/                                                                             
+s4d_student_registor_number_and_name.txt                                        
+sreelal/                                                                        
+student_details/                                                                
+tsk5.sh                                                                         
+typescript                                                                      
+xyz.txt                                                                         
+
+[Ksftp> put sr[Ksftp> put sreelal/[K
+Uploading sreelal/ to /home/cs17d49/script1/sreelal
+sreelal/ is not a regular file
+sftp> put sreelal[1@-s[1@rs[1@ s
+Uploading sreelal/ to /home/cs17d49/script1/sreelal
+Entering sreelal/
+sftp> ls
+sreelal   
+sftp> lls
+abc.txt			 result1.txt~
+a.txt			 result_one_per_line.txt
+b.txt			 result.pdf
+ceccs17d49.01.04.19.txt  s1
+cgpa			 s2
+Desktop			 s4d_student_registor_number_and_name.txt
+Documents		 sreelal
+Downloads		 student_details
+examples.desktop	 Templates
+Music			 tsk5.sh
+Pictures		 typescript
+Public			 Videos
+result1.txt		 xyz.txt
+sftp> rm task5.sh
+Removing /home/cs17d49/script1/task5.sh
+Couldn't delete file: No such file or directory
+sftp> exit
+]0;s4d2@CC2-25: ~s4d2@CC2-25:~$ exit
+exit
+
+Script done on Monday 01 April 2019 10:55:23 AM IST
