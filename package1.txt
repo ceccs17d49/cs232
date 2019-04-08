@@ -1,0 +1,525 @@
+Script started on Monday 08 April 2019 11:17:24 AM IST
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ sudo apt-fet [K[K[K[Kget update
+sudo: unable to resolve host CC2-25
+[sudo] password for cec-lab1: 
+0% [Working]            Ign http://extras.ubuntu.com trusty InRelease
+            8% [Waiting for headers] [Waiting for headers]                                              Hit http://extras.ubuntu.com trusty Release.gpg
+                                              25% [Waiting for headers] [Waiting for headers]                                               Hit http://extras.ubuntu.com trusty Release
+25% [Waiting for headers] [Waiting for headers]                                               25% [Release gpgv 11.9 kB] [Waiting for headers] [Waiting for headers]                                                                      23% [Waiting for headers] [Waiting for headers]                                               Ign http://in.archive.ubuntu.com trusty InRelease
+29% [Waiting for headers] [Waiting for headers]                                               Hit http://security.ubuntu.com trusty-security InRelease
+29% [Waiting for headers] [Waiting for headers]                                               29% [InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers]                                                                        17% [Waiting for headers] [Waiting for headers]                                               Hit http://extras.ubuntu.com trusty/main Sources
+                                               17% [Waiting for headers]                         17% [Sources 0 B] [Waiting for headers] [Waiting for headers] [Waiting for head                                                                               20% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                     Hit http://in.archive.ubuntu.com trusty-updates InRelease
+20% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                     20% [InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers] [Waiti                                                                               15% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                     Hit http://security.ubuntu.com trusty-security/main Sources
+                                                                     15% [Waiting for headers] [Waiting for headers]                                               15% [Sources 860 kB] [Waiting for headers] [Waiting for headers] [Waiting for h                                                                               Hit http://extras.ubuntu.com trusty/main amd64 Packages
+15% [Sources 860 kB] [Waiting for headers] [Waiting for headers] [Waiting for h                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 0 B] [Waiting for headers] [Waiting for headers] [Waiting for he                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-backports InRelease
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [InRelease gpgv 65.9 kB] [Waiting for headers] [Waiting for headers] [Wait                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/restricted Sources
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://extras.ubuntu.com trusty/main i386 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty Release.gpg
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                Hit http://security.ubuntu.com trusty-security/universe Sources
+100% [Waiting for headers] [Waiting for headers]                                                100% [Sources 441 kB] [Waiting for headers] [Waiting for headers]                                                                 100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/main Sources
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Sources 2,305 kB] [Waiting for headers] [Waiting for headers] [Waiting fo                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/multiverse Sources
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/restricted Sources
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Sources 35.5 kB] [Waiting for headers] [Waiting for headers] [Waiting for                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 5,812 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/universe Sources
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Sources 1,064 kB] [Waiting for headers] [Waiting for headers] [Waiting fo                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/restricted amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 132 kB] [Waiting for headers] [Waiting for headers] [Waiting for                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/multiverse Sources
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Sources 30.5 kB] [Waiting for headers] [Waiting for headers] [Waiting for                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 1,759 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/main amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 8,163 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Hit http://security.ubuntu.com trusty-security/multiverse amd64 Packages
+100% [Packages 8,163 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 18.0 kB] [Waiting for headers] [Waiting for headers] [Waiting fo                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 168 kB] [Waiting for headers] [Waiting for headers] [Waiting for                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/main i386 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 5,209 kB] [Waiting for headers] [Waiting for headers]                                                                    100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 3,084 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Hit http://security.ubuntu.com trusty-security/restricted i386 Packages
+100% [Packages 3,084 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 131 kB] [Waiting for headers] [Waiting for headers] [Waiting for                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 79.3 kB] [Waiting for headers] [Waiting for headers] [Waiting fo                                                                               100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://security.ubuntu.com trusty-security/universe i386 Packages
+100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      100% [Packages 1,644 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Ign http://extras.ubuntu.com trusty/main Translation-en_IN
+                                                                               100% [Packages 1,644 kB] [Waiting for headers] [Waiting for headers]                                                                    100% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                      Hit http://in.archive.ubuntu.com trusty-updates/main i386 Packages
+                                                                      100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 7,527 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Hit http://security.ubuntu.com trusty-security/multiverse i386 Packages
+100% [Packages 7,527 kB] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Ign http://extras.ubuntu.com trusty/main Translation-en
+                                                                               100% [Packages 7,527 kB] [Waiting for headers] [Waiting for headers]                                                                    100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 18.9 kB] [Waiting for headers] [Waiting for headers]                                                                   100% [Waiting for headers] [Waiting for headers]                                                Hit http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages
+100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 166 kB] [Waiting for headers] [Waiting for headers]                                                                  100% [Waiting for headers] [Waiting for headers]                                                Hit http://security.ubuntu.com trusty-security/main Translation-en
+                                                100% [Waiting for headers]                          100% [Translation-en 7,536 kB] [Waiting for headers] [Waiting for headers]                                                                          100% [Waiting for headers] [Waiting for headers]                                                Hit http://in.archive.ubuntu.com trusty-updates/universe i386 Packages
+                                                100% [Waiting for headers]                          100% [Packages 2,957 kB] [Waiting for headers] [Waiting for headers]                                                                    Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+                                                                    100% [Packages 2,957 kB] [Waiting for headers]                                              100% [Waiting for headers] [Waiting for headers]                                                100% [Translation-en 8,632 B] [Waiting for headers] [Waiting for headers]                                                                         100% [Waiting for headers] [Waiting for headers]                                                Hit http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages
+100% [Waiting for headers] [Waiting for headers]                                                100% [Packages 81.1 kB] [Waiting for headers] [Waiting for headers]                                                                   100% [Waiting for headers] [Waiting for headers]                                                Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+                                                100% [Waiting for headers]                          100% [Translation-en 26.0 kB] [Waiting for headers] [Waiting for headers]                                                                         100% [Waiting for headers] [Waiting for headers]                                                Hit http://in.archive.ubuntu.com trusty-updates/main Translation-en
+                                                100% [Waiting for headers]                          100% [Translation-en 8,704 kB] [Waiting for headers] [Waiting for headers]                                                                          Hit http://security.ubuntu.com trusty-security/universe Translation-en
+                                                                          100% [Translation-en 8,704 kB] [Waiting for headers]                                                    100% [Waiting for headers]                          100% [Translation-en 912 kB] [Waiting for headers]                                                  100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en
+                          100% [Working]              100% [Translation-en 32.4 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/restricted Translation-en
+                          100% [Working]              100% [Translation-en 28.6 kB] [Waiting for headers]                                                   100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-updates/universe Translation-en
+                          100% [Working]              100% [Translation-en 1,493 kB] [Waiting for headers]                                                    100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+                          100% [Working]              100% [Sources 34.0 kB] [Waiting for headers]                                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+100% [Waiting for headers]                          100% [Sources 0 B] [Waiting for headers]                                        100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+                          100% [Working]              100% [Sources 141 kB] [Waiting for headers]                                           100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+100% [Waiting for headers]                          100% [Sources 4,444 B] [Waiting for headers]                                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+                          100% [Working]              100% [Packages 59.1 kB] [Waiting for headers]                                             100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+                          100% [Working]              100% [Packages 0 B] [Waiting for headers]                                         100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+                          100% [Working]              100% [Packages 220 kB] [Waiting for headers]                                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+                          100% [Working]              100% [Packages 3,396 B] [Waiting for headers]                                             100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+                          100% [Working]              100% [Packages 59.0 kB] [Waiting for headers]                                             100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+                          100% [Working]              100% [Packages 0 B] [Waiting for headers]                                         100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+100% [Waiting for headers]                          100% [Packages 219 kB] [Waiting for headers]                                            100% [Waiting for headers]                          Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+                          100% [Working]                                                     10.1 MB/s 0s100% [Packages 3,341 B] [Waiting for headers]                      10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 28.1 kB] [Waiting for headers]                10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 2,242 B] [Waiting for headers]                10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 0 B] [Waiting for headers]                    10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 155 kB] [Waiting for headers]                 10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty Release
+100% [Working]                                                     10.1 MB/s 0s100% [Release gpgv 58.5 kB]                                        10.1 MB/s 0s100% [Working]                                                     10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main Sources
+100% [Working]                                                     10.1 MB/s 0s100% [Sources 5,000 kB]                                            10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted Sources
+100% [Working]                                                     10.1 MB/s 0s100% [Sources 22.9 kB] [Waiting for headers]                       10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe Sources
+100% [Working]                                                     10.1 MB/s 0s100% [Sources 27.9 MB] [Waiting for headers]                       10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+100% [Sources 27.9 MB]                                             10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+100% [Sources 27.9 MB]                                             10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Sources 711 kB] [Waiting for headers]                        10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Packages 8,235 kB] [Waiting for headers]                     10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+100% [Working]                                                     10.1 MB/s 0s100% [Packages 184 kB] [Waiting for headers]                       10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+100% [Working]                                                     10.1 MB/s 0s100% [Packages 31.7 MB] [Waiting for headers]                      10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+100% [Packages 31.7 MB]                                            10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+100% [Packages 31.7 MB]                                            10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Packages 664 kB] [Waiting for headers]                       10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Packages 8,205 kB] [Waiting for headers]                     10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Packages 185 kB] [Waiting for headers]                       10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+100% [Working]                                                     10.1 MB/s 0s100% [Packages 31.7 MB] [Waiting for headers]                      10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+100% [Packages 31.7 MB]                                            10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Packages 674 kB] [Waiting for headers]                       10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/main Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 4,149 kB] [Waiting for headers]               10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 409 kB] [Waiting for headers]                 10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 21.2 kB] [Waiting for headers]                10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+100% [Waiting for headers]                                         10.1 MB/s 0s100% [Translation-en 18.6 MB] [Waiting for headers]                10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s100% [Waiting for headers]                                         10.1 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/main Translation-en_IN
+100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_IN
+100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_IN
+100% [Working]                                                     21.6 MB/s 0s                                                                               Ign http://in.archive.ubuntu.com trusty/universe Translation-en_IN
+100% [Working]                                                     21.6 MB/s 0s                                                                               Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 24%Reading package lists... 24%Reading package lists... 25%Reading package lists... 25%Reading package lists... 30%Reading package lists... 30%Reading package lists... 30%Reading package lists... 30%Reading package lists... 37%Reading package lists... 49%Reading package lists... 49%Reading package lists... 50%Reading package lists... 50%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 52%Reading package lists... 64%Reading package lists... 64%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 71%Reading package lists... 71%Reading package lists... 71%Reading package lists... 71%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ apt get[K[K[K[K-get upgrade
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ /var/lib/dpkg/ apt-get upgrade
+bash: /var/lib/dpkg/: Is a directory
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ sudo apt-get upgrade
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+The following packages have been kept back:
+  cups-filters cups-filters-core-drivers grub-common grub-efi-amd64
+  grub-efi-amd64-bin grub-efi-amd64-signed grub2-common liboxideqt-qmlplugin
+  liboxideqtcore0 liboxideqtquick0 linux-generic-lts-utopic
+  linux-headers-generic-lts-utopic linux-image-generic-lts-utopic
+  linux-signed-generic-lts-utopic linux-signed-image-generic-lts-utopic
+  oxideqt-codecs python3-software-properties python3-update-manager qpdf shim
+  shim-signed software-properties-common software-properties-gtk
+  ubuntu-minimal update-manager update-manager-core update-notifier
+  update-notifier-common
+The following packages will be upgraded:
+  apt apt-transport-https apt-utils base-files bind9-host busybox-initramfs
+  busybox-static dnsutils firefox firefox-locale-en ghostscript ghostscript-x
+  gnome-keyring libapt-inst1.5 libapt-pkg4.12 libbind9-90 libc-bin
+  libc-dev-bin libc6 libc6-dbg libc6-dev libdns100 libgd3 libgs9 libgs9-common
+  libisc95 libisccc90 libisccfg90 libldb1 liblwres90 libnss3 libnss3-nssdb
+  libp11-kit-gnome-keyring libpam-gnome-keyring libpolkit-agent-1-0
+  libpolkit-backend-1-0 libpolkit-gobject-1-0 libpoppler-glib8 libpoppler44
+  libsqlite3-0 libtiff5 linux-libc-dev multiarch-support policykit-1
+  poppler-utils python-ldb ssh-askpass-gnome thunderbird
+  thunderbird-gnome-support
+49 upgraded, 0 newly installed, 0 to remove and 28 not upgraded.
+Need to get 116 MB of archives.
+After this operation, 1,708 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main base-files amd64 7.2ubuntu5.6 [69.3 kB]
+            0% [1 base-files 5,206 B/69.3 kB 8%]                                    0% [Working]            0% [Waiting for headers]                        Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libc-bin amd64 2.19-0ubuntu6.15 [1,166 kB]
+                        0% [2 libc-bin 0 B/1,166 kB 0%]                               0% [2 libc-bin 104 kB/1,166 kB 9%]                                  1% [2 libc-bin 913 kB/1,166 kB 78%]                                   1% [Working]            Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libc6-dev amd64 2.19-0ubuntu6.15 [1,913 kB]
+            1% [3 libc6-dev 0 B/1,913 kB 0%]                                2% [3 libc6-dev 1,165 kB/1,913 kB 61%]                                      3% [Working]            Get:4 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libc-dev-bin amd64 2.19-0ubuntu6.15 [68.9 kB]
+            3% [4 libc-dev-bin 1,029 B/68.9 kB 1%]                                      3% [Working]            Get:5 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-libc-dev amd64 3.13.0-168.218 [771 kB]
+            3% [5 linux-libc-dev 0 B/771 kB 0%]                                   3% [Working]            Get:6 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libc6-dbg amd64 2.19-0ubuntu6.15 [3,467 kB]
+            3% [6 libc6-dbg 0 B/3,467 kB 0%]                                6% [6 libc6-dbg 3,105 kB/3,467 kB 90%]                                      6% [Working]            Get:7 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libc6 amd64 2.19-0ubuntu6.15 [4,727 kB]
+            6% [7 libc6 0 B/4,727 kB 0%]                            8% [7 libc6 2,389 kB/4,727 kB 51%]                                  10% [Working]             Get:8 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libapt-pkg4.12 amd64 1.0.1ubuntu2.23 [647 kB]
+             10% [8 libapt-pkg4.12 0 B/647 kB 0%]                                    11% [Working]             Get:9 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main apt amd64 1.0.1ubuntu2.23 [962 kB]
+             11% [9 apt 0 B/962 kB 0%]                         12% [Working]             Get:10 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libapt-inst1.5 amd64 1.0.1ubuntu2.23 [58.7 kB]
+             12% [10 libapt-inst1.5 1,030 B/58.7 kB 2%]                                          12% [Waiting for headers]                         Get:11 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libsqlite3-0 amd64 3.8.2-1ubuntu2.2 [342 kB]
+                         12% [11 libsqlite3-0 2,476 B/342 kB 1%]                                       12% [Waiting for headers]                         Get:12 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpolkit-gobject-1-0 amd64 0.105-4ubuntu3.14.04.6 [35.3 kB]
+                         12% [12 libpolkit-gobject-1-0 3,760 B/35.3 kB 11%]                                                  12% [Working]             Get:13 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libp11-kit-gnome-keyring amd64 3.10.1-1ubuntu4.4 [40.6 kB]
+             12% [13 libp11-kit-gnome-keyring 2,478 B/40.6 kB 6%]                                                    12% [Waiting for headers]                         Get:14 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main gnome-keyring amd64 3.10.1-1ubuntu4.4 [564 kB]
+                         12% [14 gnome-keyring 0 B/564 kB 0%]                                    13% [Working]             Get:15 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libtiff5 amd64 4.0.3-7ubuntu0.11 [147 kB]
+             13% [15 libtiff5 2,476 B/147 kB 2%]                                   13% [Working]             Get:16 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libgd3 amd64 2.1.0-3ubuntu0.11 [123 kB]
+             13% [16 libgd3 2,476 B/123 kB 2%]                                 13% [Working]             Get:17 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main python-ldb amd64 1:1.1.24-0ubuntu0.14.04.2 [29.0 kB]
+             13% [17 python-ldb 2,478 B/29.0 kB 9%]                                      13% [Working]             Get:18 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libldb1 amd64 1:1.1.24-0ubuntu0.14.04.2 [107 kB]
+             13% [18 libldb1 2,476 B/107 kB 2%]                                  13% [Working]             Get:19 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libnss3-nssdb all 2:3.28.4-0ubuntu0.14.04.5 [10.6 kB]
+             13% [19 libnss3-nssdb 0 B/10.6 kB 0%]                                     13% [Working]             Get:20 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libnss3 amd64 2:3.28.4-0ubuntu0.14.04.5 [1,124 kB]
+             13% [20 libnss3 0 B/1,124 kB 0%]                                14% [Working]             Get:21 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpam-gnome-keyring amd64 3.10.1-1ubuntu4.4 [36.0 kB]
+             14% [21 libpam-gnome-keyring 2,478 B/36.0 kB 7%]                                                14% [Waiting for headers]                         Get:22 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpolkit-agent-1-0 amd64 0.105-4ubuntu3.14.04.6 [14.9 kB]
+                         14% [22 libpolkit-agent-1-0 3,760 B/14.9 kB 25%]                                                14% [Working]             Get:23 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpolkit-backend-1-0 amd64 0.105-4ubuntu3.14.04.6 [35.3 kB]
+             14% [23 libpolkit-backend-1-0 3,760 B/35.3 kB 11%]                                                  14% [Waiting for headers]                         Get:24 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpoppler44 amd64 0.24.5-2ubuntu4.17 [703 kB]
+                         14% [24 libpoppler44 0 B/703 kB 0%]                              2,690 kB/s 37s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:25 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libpoppler-glib8 amd64 0.24.5-2ubuntu4.17 [83.8 kB]
+15% [25 libpoppler-glib8 2,477 B/83.8 kB 3%]                     2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:26 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main multiarch-support amd64 2.19-0ubuntu6.15 [4,490 B]
+15% [26 multiarch-support 2,479 B/4,490 B 55%]                   2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:27 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main apt-utils amd64 1.0.1ubuntu2.23 [172 kB]
+15% [27 apt-utils 2,476 B/172 kB 1%]                             2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:28 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main busybox-initramfs amd64 1:1.21.0-1ubuntu1.4 [166 kB]
+15% [28 busybox-initramfs 2,476 B/166 kB 1%]                     2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:29 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main apt-transport-https amd64 1.0.1ubuntu2.23 [25.7 kB]
+15% [29 apt-transport-https 2,478 B/25.7 kB 10%]                 2,690 kB/s 36s15% [Waiting for headers]                                        2,690 kB/s 36s                                                                               Get:30 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main bind9-host amd64 1:9.9.5.dfsg-3ubuntu0.19 [46.4 kB]
+15% [30 bind9-host 2,478 B/46.4 kB 5%]                           2,690 kB/s 36s15% [Waiting for headers]                                        2,690 kB/s 36s                                                                               Get:31 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main dnsutils amd64 1:9.9.5.dfsg-3ubuntu0.19 [97.1 kB]
+15% [31 dnsutils 3,759 B/97.1 kB 4%]                             2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:32 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libisc95 amd64 1:9.9.5.dfsg-3ubuntu0.19 [148 kB]
+15% [32 libisc95 1,028 B/148 kB 1%]                              2,690 kB/s 36s15% [Working]                                                    2,690 kB/s 36s                                                                               Get:33 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libdns100 amd64 1:9.9.5.dfsg-3ubuntu0.19 [645 kB]
+15% [33 libdns100 0 B/645 kB 0%]                                 2,690 kB/s 36s16% [33 libdns100 165 kB/645 kB 26%]                             2,690 kB/s 36s16% [Working]                                                    2,690 kB/s 36s                                                                               Get:34 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccc90 amd64 1:9.9.5.dfsg-3ubuntu0.19 [15.7 kB]
+16% [34 libisccc90 1,030 B/15.7 kB 7%]                           2,690 kB/s 36s16% [Working]                                                    2,690 kB/s 36s                                                                               Get:35 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccfg90 amd64 1:9.9.5.dfsg-3ubuntu0.19 [36.0 kB]
+16% [35 libisccfg90 2,478 B/36.0 kB 7%]                          2,690 kB/s 36s16% [Working]                                                    2,690 kB/s 36s                                                                               Get:36 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main liblwres90 amd64 1:9.9.5.dfsg-3ubuntu0.19 [33.4 kB]
+16% [36 liblwres90 2,478 B/33.4 kB 7%]                           2,690 kB/s 36s16% [Working]                                                    2,690 kB/s 36s                                                                               Get:37 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libbind9-90 amd64 1:9.9.5.dfsg-3ubuntu0.19 [22.0 kB]
+16% [37 libbind9-90 2,478 B/22.0 kB 11%]                         2,690 kB/s 36s16% [Working]                                                    2,690 kB/s 36s                                                                               Get:38 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main busybox-static amd64 1:1.21.0-1ubuntu1.4 [845 kB]
+16% [38 busybox-static 0 B/845 kB 0%]                            2,690 kB/s 36s17% [Working]                                                    2,690 kB/s 35s                                                                               Get:39 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main firefox amd64 66.0.2+build1-0ubuntu0.14.04.1 [47.7 MB]
+17% [39 firefox 0 B/47.7 MB 0%]                                  2,690 kB/s 35s18% [39 firefox 1,525 kB/47.7 MB 3%]                             2,690 kB/s 35s20% [39 firefox 4,089 kB/47.7 MB 9%]                             2,690 kB/s 34s24% [39 firefox 8,488 kB/47.7 MB 18%]                            2,690 kB/s 32s26% [39 firefox 10.9 MB/47.7 MB 23%]                             2,690 kB/s 31s29% [39 firefox 14.7 MB/47.7 MB 31%]                             2,690 kB/s 30s33% [39 firefox 18.4 MB/47.7 MB 39%]                             2,690 kB/s 29s36% [39 firefox 22.0 MB/47.7 MB 46%]                             2,690 kB/s 27s40% [39 firefox 26.8 MB/47.7 MB 56%]                             2,690 kB/s 25s43% [39 firefox 30.6 MB/47.7 MB 64%]                             5,451 kB/s 12s46% [39 firefox 33.4 MB/47.7 MB 70%]                             5,451 kB/s 11s49% [39 firefox 37.3 MB/47.7 MB 78%]                             5,451 kB/s 10s51% [39 firefox 40.1 MB/47.7 MB 84%]                             5,451 kB/s 10s55% [39 firefox 44.3 MB/47.7 MB 93%]                              5,451 kB/s 9s58% [39 firefox 47.3 MB/47.7 MB 99%]                              5,451 kB/s 9s58% [39 firefox 47.3 MB/47.7 MB 99%]                              5,451 kB/s 9s58% [Waiting for headers]                                         5,451 kB/s 8s                                                                               Get:40 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main firefox-locale-en amd64 66.0.2+build1-0ubuntu0.14.04.1 [932 kB]
+58% [40 firefox-locale-en 0 B/932 kB 0%]                          5,451 kB/s 8s59% [Working]                                                     5,451 kB/s 8s                                                                               Get:41 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main ghostscript amd64 9.26~dfsg+0-0ubuntu0.14.04.8 [47.1 kB]
+59% [41 ghostscript 2,478 B/47.1 kB 5%]                           5,451 kB/s 8s59% [Working]                                                     5,451 kB/s 8s                                                                               Get:42 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main ghostscript-x amd64 9.26~dfsg+0-0ubuntu0.14.04.8 [42.4 kB]
+59% [42 ghostscript-x 2,478 B/42.4 kB 6%]                         5,451 kB/s 8s59% [Working]                                                     5,451 kB/s 8s                                                                               Get:43 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libgs9 amd64 9.26~dfsg+0-0ubuntu0.14.04.8 [2,355 kB]
+59% [43 libgs9 0 B/2,355 kB 0%]                                   5,451 kB/s 8s61% [43 libgs9 2,080 kB/2,355 kB 88%]                             5,451 kB/s 8s61% [Working]                                                     5,451 kB/s 8s                                                                               Get:44 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main libgs9-common all 9.26~dfsg+0-0ubuntu0.14.04.8 [5,098 kB]
+61% [44 libgs9-common 0 B/5,098 kB 0%]                            5,451 kB/s 8s63% [44 libgs9-common 2,832 kB/5,098 kB 56%]                      5,451 kB/s 7s65% [Working]                                                     5,451 kB/s 7s                                                                               Get:45 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main policykit-1 amd64 0.105-4ubuntu3.14.04.6 [51.9 kB]
+65% [45 policykit-1 1,030 B/51.9 kB 2%]                           5,451 kB/s 7s65% [Working]                                                     5,451 kB/s 7s                                                                               Get:46 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main poppler-utils amd64 0.24.5-2ubuntu4.17 [119 kB]
+65% [46 poppler-utils 2,476 B/119 kB 2%]                          5,451 kB/s 7s65% [Working]                                                     5,451 kB/s 7s                                                                               Get:47 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main ssh-askpass-gnome amd64 1:6.6p1-2ubuntu2.13 [14.4 kB]
+65% [47 ssh-askpass-gnome 1,030 B/14.4 kB 7%]                     5,451 kB/s 7s65% [Working]                                                     5,451 kB/s 7s                                                                               Get:48 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main thunderbird amd64 1:60.6.1+build2-0ubuntu0.14.04.1 [40.3 MB]
+65% [48 thunderbird 1,106 B/40.3 MB 0%]                           5,451 kB/s 7s66% [48 thunderbird 1,194 kB/40.3 MB 3%]                          4,448 kB/s 8s70% [48 thunderbird 5,645 kB/40.3 MB 14%]                         4,448 kB/s 7s73% [48 thunderbird 8,881 kB/40.3 MB 22%]                         4,448 kB/s 7s75% [48 thunderbird 11.6 MB/40.3 MB 29%]                          4,448 kB/s 6s77% [48 thunderbird 13.8 MB/40.3 MB 34%]                          4,448 kB/s 5s80% [48 thunderbird 16.8 MB/40.3 MB 42%]                          4,448 kB/s 5s83% [48 thunderbird 20.5 MB/40.3 MB 51%]                          4,448 kB/s 4s85% [48 thunderbird 23.3 MB/40.3 MB 58%]                          4,448 kB/s 3s87% [48 thunderbird 25.5 MB/40.3 MB 63%]                          4,448 kB/s 3s91% [48 thunderbird 29.3 MB/40.3 MB 73%]                          4,448 kB/s 2s94% [48 thunderbird 33.5 MB/40.3 MB 83%]                          4,448 kB/s 1s97% [48 thunderbird 36.3 MB/40.3 MB 90%]                          4,448 kB/s 0s100% [48 thunderbird 40.3 MB/40.3 MB 100%]                        6,507 kB/s 0s100% [Working]                                                    6,507 kB/s 0s                                                                               Get:49 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main thunderbird-gnome-support amd64 1:60.6.1+build2-0ubuntu0.14.04.1 [8,546 B]
+100% [49 thunderbird-gnome-support 2,479 B/8,546 B 29%]           6,507 kB/s 0s100% [Working]                                                    6,507 kB/s 0s                                                                               Fetched 116 MB in 24s (4,753 kB/s)
+Extracting templates from packages: 61%Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177725 files and directories currently installed.)
+Preparing to unpack .../base-files_7.2ubuntu5.6_amd64.deb ...
+Unpacking base-files (7.2ubuntu5.6) over (7.2ubuntu5.5) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for cracklib-runtime (2.9.1-1build1) ...
+Processing triggers for install-info (5.2.0.dfsg.1-2) ...
+Processing triggers for plymouth-theme-ubuntu-text (0.8.8-0ubuntu17.2) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.103ubuntu4.11) ...
+update-initramfs: Generating /boot/initrd.img-3.16.0-30-generic
+Setting up base-files (7.2ubuntu5.6) ...
+Installing new version of config file /etc/issue ...
+Installing new version of config file /etc/issue.net ...
+Installing new version of config file /etc/lsb-release ...
+Installing new version of config file /etc/os-release ...
+Processing triggers for plymouth-theme-ubuntu-text (0.8.8-0ubuntu17.2) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.103ubuntu4.11) ...
+update-initramfs: Generating /boot/initrd.img-3.16.0-30-generic
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177725 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking libc-bin (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libc-bin (2.19-0ubuntu6.15) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177725 files and directories currently installed.)
+Preparing to unpack .../libc6-dev_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Preparing to unpack .../libc-dev-bin_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking libc-dev-bin (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Preparing to unpack .../linux-libc-dev_3.13.0-168.218_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (3.13.0-168.218) over (3.13.0-165.215) ...
+Preparing to unpack .../libc6-dbg_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking libc6-dbg:amd64 (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Preparing to unpack .../libc6_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking libc6:amd64 (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libc6:amd64 (2.19-0ubuntu6.15) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177725 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg4.12_1.0.1ubuntu2.23_amd64.deb ...
+Unpacking libapt-pkg4.12:amd64 (1.0.1ubuntu2.23) over (1.0.1ubuntu2.19) ...
+Setting up libapt-pkg4.12:amd64 (1.0.1ubuntu2.23) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177725 files and directories currently installed.)
+Preparing to unpack .../apt_1.0.1ubuntu2.23_amd64.deb ...
+Unpacking apt (1.0.1ubuntu2.23) over (1.0.1ubuntu2.19) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up apt (1.0.1ubuntu2.23) ...
+Installing new version of config file /etc/apt/apt.conf.d/01autoremove ...
+Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177726 files and directories currently installed.)
+Preparing to unpack .../libapt-inst1.5_1.0.1ubuntu2.23_amd64.deb ...
+Unpacking libapt-inst1.5:amd64 (1.0.1ubuntu2.23) over (1.0.1ubuntu2.19) ...
+Preparing to unpack .../libsqlite3-0_3.8.2-1ubuntu2.2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.8.2-1ubuntu2.2) over (3.8.2-1ubuntu2.1) ...
+Preparing to unpack .../libpolkit-gobject-1-0_0.105-4ubuntu3.14.04.6_amd64.deb ...
+Unpacking libpolkit-gobject-1-0:amd64 (0.105-4ubuntu3.14.04.6) over (0.105-4ubuntu3.14.04.5) ...
+Preparing to unpack .../libp11-kit-gnome-keyring_3.10.1-1ubuntu4.4_amd64.deb ...
+Unpacking libp11-kit-gnome-keyring:amd64 (3.10.1-1ubuntu4.4) over (3.10.1-1ubuntu4.3) ...
+Preparing to unpack .../gnome-keyring_3.10.1-1ubuntu4.4_amd64.deb ...
+Unpacking gnome-keyring (3.10.1-1ubuntu4.4) over (3.10.1-1ubuntu4.3) ...
+Preparing to unpack .../libtiff5_4.0.3-7ubuntu0.11_amd64.deb ...
+Unpacking libtiff5:amd64 (4.0.3-7ubuntu0.11) over (4.0.3-7ubuntu0.10) ...
+Preparing to unpack .../libgd3_2.1.0-3ubuntu0.11_amd64.deb ...
+Unpacking libgd3:amd64 (2.1.0-3ubuntu0.11) over (2.1.0-3ubuntu0.10) ...
+Preparing to unpack .../python-ldb_1%3a1.1.24-0ubuntu0.14.04.2_amd64.deb ...
+Unpacking python-ldb (1:1.1.24-0ubuntu0.14.04.2) over (1:1.1.24-0ubuntu0.14.04.1) ...
+Preparing to unpack .../libldb1_1%3a1.1.24-0ubuntu0.14.04.2_amd64.deb ...
+Unpacking libldb1:amd64 (1:1.1.24-0ubuntu0.14.04.2) over (1:1.1.24-0ubuntu0.14.04.1) ...
+Preparing to unpack .../libnss3-nssdb_2%3a3.28.4-0ubuntu0.14.04.5_all.deb ...
+Unpacking libnss3-nssdb (2:3.28.4-0ubuntu0.14.04.5) over (2:3.28.4-0ubuntu0.14.04.4) ...
+Preparing to unpack .../libnss3_2%3a3.28.4-0ubuntu0.14.04.5_amd64.deb ...
+Unpacking libnss3:amd64 (2:3.28.4-0ubuntu0.14.04.5) over (2:3.28.4-0ubuntu0.14.04.4) ...
+Preparing to unpack .../libpam-gnome-keyring_3.10.1-1ubuntu4.4_amd64.deb ...
+Unpacking libpam-gnome-keyring:amd64 (3.10.1-1ubuntu4.4) over (3.10.1-1ubuntu4.3) ...
+Preparing to unpack .../libpolkit-agent-1-0_0.105-4ubuntu3.14.04.6_amd64.deb ...
+Unpacking libpolkit-agent-1-0:amd64 (0.105-4ubuntu3.14.04.6) over (0.105-4ubuntu3.14.04.5) ...
+Preparing to unpack .../libpolkit-backend-1-0_0.105-4ubuntu3.14.04.6_amd64.deb ...
+Unpacking libpolkit-backend-1-0:amd64 (0.105-4ubuntu3.14.04.6) over (0.105-4ubuntu3.14.04.5) ...
+Preparing to unpack .../libpoppler44_0.24.5-2ubuntu4.17_amd64.deb ...
+Unpacking libpoppler44:amd64 (0.24.5-2ubuntu4.17) over (0.24.5-2ubuntu4.15) ...
+Preparing to unpack .../libpoppler-glib8_0.24.5-2ubuntu4.17_amd64.deb ...
+Unpacking libpoppler-glib8:amd64 (0.24.5-2ubuntu4.17) over (0.24.5-2ubuntu4.15) ...
+Preparing to unpack .../multiarch-support_2.19-0ubuntu6.15_amd64.deb ...
+Unpacking multiarch-support (2.19-0ubuntu6.15) over (2.19-0ubuntu6.14) ...
+Processing triggers for libglib2.0-0:amd64 (2.40.2-0ubuntu1.1) ...
+Processing triggers for gconf2 (3.2.6-0ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up multiarch-support (2.19-0ubuntu6.15) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177726 files and directories currently installed.)
+Preparing to unpack .../apt-utils_1.0.1ubuntu2.23_amd64.deb ...
+Unpacking apt-utils (1.0.1ubuntu2.23) over (1.0.1ubuntu2.19) ...
+Preparing to unpack .../busybox-initramfs_1%3a1.21.0-1ubuntu1.4_amd64.deb ...
+Unpacking busybox-initramfs (1:1.21.0-1ubuntu1.4) over (1:1.21.0-1ubuntu1) ...
+Preparing to unpack .../apt-transport-https_1.0.1ubuntu2.23_amd64.deb ...
+Unpacking apt-transport-https (1.0.1ubuntu2.23) over (1.0.1ubuntu2.19) ...
+Preparing to unpack .../bind9-host_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking bind9-host (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../dnsutils_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking dnsutils (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../libisc95_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking libisc95 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../libdns100_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking libdns100 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../libisccc90_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking libisccc90 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../libisccfg90_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking libisccfg90 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../liblwres90_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking liblwres90 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../libbind9-90_1%3a9.9.5.dfsg-3ubuntu0.19_amd64.deb ...
+Unpacking libbind9-90 (1:9.9.5.dfsg-3ubuntu0.19) over (1:9.9.5.dfsg-3ubuntu0.18) ...
+Preparing to unpack .../busybox-static_1%3a1.21.0-1ubuntu1.4_amd64.deb ...
+Unpacking busybox-static (1:1.21.0-1ubuntu1.4) over (1:1.21.0-1ubuntu1) ...
+Preparing to unpack .../firefox_66.0.2+build1-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking firefox (66.0.2+build1-0ubuntu0.14.04.1) over (65.0.1+build2-0ubuntu0.14.04.1) ...
+Preparing to unpack .../firefox-locale-en_66.0.2+build1-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking firefox-locale-en (66.0.2+build1-0ubuntu0.14.04.1) over (65.0+build2-0ubuntu0.14.04.1) ...
+Preparing to unpack .../ghostscript_9.26~dfsg+0-0ubuntu0.14.04.8_amd64.deb ...
+Unpacking ghostscript (9.26~dfsg+0-0ubuntu0.14.04.8) over (9.26~dfsg+0-0ubuntu0.14.04.4) ...
+Preparing to unpack .../ghostscript-x_9.26~dfsg+0-0ubuntu0.14.04.8_amd64.deb ...
+Unpacking ghostscript-x (9.26~dfsg+0-0ubuntu0.14.04.8) over (9.26~dfsg+0-0ubuntu0.14.04.4) ...
+Preparing to unpack .../libgs9_9.26~dfsg+0-0ubuntu0.14.04.8_amd64.deb ...
+Unpacking libgs9 (9.26~dfsg+0-0ubuntu0.14.04.8) over (9.26~dfsg+0-0ubuntu0.14.04.4) ...
+Preparing to unpack .../libgs9-common_9.26~dfsg+0-0ubuntu0.14.04.8_all.deb ...
+Unpacking libgs9-common (9.26~dfsg+0-0ubuntu0.14.04.8) over (9.26~dfsg+0-0ubuntu0.14.04.4) ...
+Preparing to unpack .../policykit-1_0.105-4ubuntu3.14.04.6_amd64.deb ...
+Unpacking policykit-1 (0.105-4ubuntu3.14.04.6) over (0.105-4ubuntu3.14.04.5) ...
+Preparing to unpack .../poppler-utils_0.24.5-2ubuntu4.17_amd64.deb ...
+Unpacking poppler-utils (0.24.5-2ubuntu4.17) over (0.24.5-2ubuntu4.15) ...
+Preparing to unpack .../ssh-askpass-gnome_1%3a6.6p1-2ubuntu2.13_amd64.deb ...
+Unpacking ssh-askpass-gnome (1:6.6p1-2ubuntu2.13) over (1:6.6p1-2ubuntu2.12) ...
+Preparing to unpack .../thunderbird_1%3a60.6.1+build2-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking thunderbird (1:60.6.1+build2-0ubuntu0.14.04.1) over (1:60.4.0+build2-0ubuntu0.14.04.1) ...
+Preparing to unpack .../thunderbird-gnome-support_1%3a60.6.1+build2-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking thunderbird-gnome-support (1:60.6.1+build2-0ubuntu0.14.04.1) over (1:60.4.0+build2-0ubuntu0.14.04.1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu1.1) ...
+Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
+Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.54ubuntu1.1) ...
+Setting up libc-dev-bin (2.19-0ubuntu6.15) ...
+Setting up linux-libc-dev:amd64 (3.13.0-168.218) ...
+Setting up libc6-dev:amd64 (2.19-0ubuntu6.15) ...
+Setting up libc6-dbg:amd64 (2.19-0ubuntu6.15) ...
+Setting up libapt-inst1.5:amd64 (1.0.1ubuntu2.23) ...
+Setting up libsqlite3-0:amd64 (3.8.2-1ubuntu2.2) ...
+Setting up libpolkit-gobject-1-0:amd64 (0.105-4ubuntu3.14.04.6) ...
+Setting up libp11-kit-gnome-keyring:amd64 (3.10.1-1ubuntu4.4) ...
+Setting up gnome-keyring (3.10.1-1ubuntu4.4) ...
+Setting up libtiff5:amd64 (4.0.3-7ubuntu0.11) ...
+Setting up libgd3:amd64 (2.1.0-3ubuntu0.11) ...
+Setting up libldb1:amd64 (1:1.1.24-0ubuntu0.14.04.2) ...
+Setting up python-ldb (1:1.1.24-0ubuntu0.14.04.2) ...
+Setting up libpam-gnome-keyring:amd64 (3.10.1-1ubuntu4.4) ...
+Setting up libpolkit-agent-1-0:amd64 (0.105-4ubuntu3.14.04.6) ...
+Setting up libpolkit-backend-1-0:amd64 (0.105-4ubuntu3.14.04.6) ...
+Setting up libpoppler44:amd64 (0.24.5-2ubuntu4.17) ...
+Setting up libpoppler-glib8:amd64 (0.24.5-2ubuntu4.17) ...
+Setting up apt-utils (1.0.1ubuntu2.23) ...
+Setting up busybox-initramfs (1:1.21.0-1ubuntu1.4) ...
+Setting up apt-transport-https (1.0.1ubuntu2.23) ...
+Setting up libisc95 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up libdns100 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up libisccc90 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up libisccfg90 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up libbind9-90 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up liblwres90 (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up bind9-host (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up dnsutils (1:9.9.5.dfsg-3ubuntu0.19) ...
+Setting up busybox-static (1:1.21.0-1ubuntu1.4) ...
+Setting up firefox (66.0.2+build1-0ubuntu0.14.04.1) ...
+Please restart all running instances of firefox, or you will experience problems.
+Setting up firefox-locale-en (66.0.2+build1-0ubuntu0.14.04.1) ...
+Setting up libgs9-common (9.26~dfsg+0-0ubuntu0.14.04.8) ...
+Setting up libgs9 (9.26~dfsg+0-0ubuntu0.14.04.8) ...
+Setting up ghostscript (9.26~dfsg+0-0ubuntu0.14.04.8) ...
+Setting up ghostscript-x (9.26~dfsg+0-0ubuntu0.14.04.8) ...
+Setting up policykit-1 (0.105-4ubuntu3.14.04.6) ...
+Setting up poppler-utils (0.24.5-2ubuntu4.17) ...
+Setting up ssh-askpass-gnome (1:6.6p1-2ubuntu2.13) ...
+Setting up thunderbird (1:60.6.1+build2-0ubuntu0.14.04.1) ...
+Setting up thunderbird-gnome-support (1:60.6.1+build2-0ubuntu0.14.04.1) ...
+Setting up libnss3-nssdb (2:3.28.4-0ubuntu0.14.04.5) ...
+Setting up libnss3:amd64 (2:3.28.4-0ubuntu0.14.04.5) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.15) ...
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ sudo apt search nginx
+sudo: unable to resolve host CC2-25
+Sorting... 0%Sorting... 0%Sorting... 1%Sorting... Done
+Full Text Search... 50%Full Text Search... 50%Full Text Search... Done
+[32mcollectd-core[0m/trusty-updates 5.4.0-3ubuntu2.2 amd64
+  statistics collection and monitoring daemon (core system)
+
+[32mcoquelicot[0m/trusty 0.9.2-2 all
+  "one-click" file sharing web application with a focus on users' privacy
+
+[32mfcgiwrap[0m/trusty 1.1.0-2 amd64
+  simple server to run CGI applications over FastCGI
+
+[32mgitweb[0m/trusty-updates,trusty-security 1:1.9.1-1ubuntu0.10 all
+  fast, scalable, distributed revision control system (web interface)
+
+[32mgunicorn[0m/trusty 17.5-2build1 all
+  Event-based HTTP/WSGI server
+
+[32mlibghc-graceful-dev[0m/trusty 0.1.1.3-1 amd64
+  Library to write graceful shutdown / upgrade service.
+
+[32mlibghc-graceful-doc[0m/trusty 0.1.1.3-1 all
+  Library to write graceful shutdown / upgrade service - doc
+
+[32mlibghc-graceful-prof[0m/trusty 0.1.1.3-1 amd64
+  Library to write graceful shutdown / upgrade service - prof
+
+[32mlibplack-middleware-file-sass-perl[0m/trusty 0.03-2 all
+  Sass and SCSS support for all Plack-based PSGI frameworks
+
+[32mlua-nginx-memcached[0m/trusty 0.10-1 all
+  Pure Lua memcached client driver for the nginx embedded Lua language
+
+[32mlua-nginx-redis[0m/trusty 0.15-1 all
+  Pure Lua redis client driver for the nginx embedded Lua language
+
+[32mmighttpd2[0m/trusty 2.8.7-2 amd64
+  classical web server on WAI/warp
+
+[32mnginx[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 all
+  small, powerful, scalable web/proxy server
+
+[32mnginx-common[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 all
+  small, powerful, scalable web/proxy server - common files
+
+[32mnginx-core[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (core version)
+
+[32mnginx-core-dbg[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (core version) - debugging symbols
+
+[32mnginx-doc[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 all
+  small, powerful, scalable web/proxy server - documentation
+
+[32mnginx-extras[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (extended version)
+
+[32mnginx-extras-dbg[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (extended version) - debugging symbols
+
+[32mnginx-full[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (standard version)
+
+[32mnginx-full-dbg[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (standard version) - debugging symbols
+
+[32mnginx-light[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (basic version)
+
+[32mnginx-light-dbg[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (basic version) - debugging symbols
+
+[32mnginx-naxsi[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (version with naxsi)
+
+[32mnginx-naxsi-dbg[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 amd64
+  nginx web/proxy server (version with naxsi) - debugging symbols
+
+[32mnginx-naxsi-ui[0m/trusty-updates,trusty-security 1.4.6-1ubuntu3.9 all
+  nginx web/proxy server - naxsi configuration front-end
+
+[32mpython-reconfigure[0m/trusty 0.1.29-2 all
+  simple config file management library
+
+[32mrt4-fcgi[0m/trusty 4.0.19-1 all
+  External FastCGI support for request-tracker4
+
+[32mstud[0m/trusty 0.3-6 amd64
+  scalable TLS unwrapping daemon
+
+]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ sudo apt install nginx
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  nginx-common nginx-core
+Suggested packages:
+  fcgiwrap nginx-doc
+The following NEW packages will be installed:
+  nginx nginx-common nginx-core
+0 upgraded, 3 newly installed, 0 to remove and 28 not upgraded.
+Need to get 349 kB of archives.
+After this operation, 1,300 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx-common all 1.4.6-1ubuntu3.9 [18.9 kB]
+[33m            0% [1 nginx-common 0 B/18.9 kB 0%][0m[33m                                  5% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx-core amd64 1.4.6-1ubuntu3.9 [325 kB]
+[33m            5% [2 nginx-core 0 B/325 kB 0%][0m[33m                               64% [2 nginx-core 205 kB/325 kB 63%][0m[33m                                    98% [Working][0m             Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx all 1.4.6-1ubuntu3.9 [5,418 B]
+[33m             98% [3 nginx 0 B/5,418 B 0%][0m[33m                            100% [Working][0m              Fetched 349 kB in 1s (243 kB/s)
+Preconfiguring packages ...
+
+[s[0;23r[u[1ASelecting previously unselected package nginx-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177726 files and directories currently installed.)
+Preparing to unpack .../nginx-common_1.4.6-1ubuntu3.9_all.deb ...
+[s[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] [u[s[24;0f[42m[30mProgress: [  6%][49m[39m [####......................................................] [uUnpacking nginx-common (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 13%][49m[39m [########..................................................] [u[s[24;0f[42m[30mProgress: [ 20%][49m[39m [############..............................................] [uSelecting previously unselected package nginx-core.
+Preparing to unpack .../nginx-core_1.4.6-1ubuntu3.9_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 26%][49m[39m [################..........................................] [uUnpacking nginx-core (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] [u[s[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] [uSelecting previously unselected package nginx.
+Preparing to unpack .../nginx_1.4.6-1ubuntu3.9_all.deb ...
+[s[24;0f[42m[30mProgress: [ 46%][49m[39m [############################..............................] [uUnpacking nginx (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 53%][49m[39m [###############################...........................] [u[s[24;0f[42m[30mProgress: [ 60%][49m[39m [###################################.......................] [uProcessing triggers for ureadahead (0.100.0-16) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up nginx-common (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] [uProcessing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+[s[24;0f[42m[30mProgress: [ 73%][49m[39m [###########################################...............] [uSetting up nginx-core (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] [u[s[24;0f[42m[30mProgress: [ 86%][49m[39m [###################################################.......] [uSetting up nginx (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################...] [u[s[24;0f[42m[30mProgress: [100%][49m[39m [##########################################################] [u
+[s[0;24r[u[1A[J]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ sudo apt remove nginx
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  nginx
+0 upgraded, 0 newly installed, 1 to remove and 28 not upgraded.
+After this operation, 96.3 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+[s[0;23r[u[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177770 files and directories currently installed.)
+Removing nginx (1.4.6-1ubuntu3.9) ...
+[s[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] [u[s[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] [u[s[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] [u[s[24;0f[42m[30mProgress: [100%][49m[39m [##########################################################] [u
+[s[0;24r[u[1A[J]0;cec-lab1@CC2-25: ~cec-lab1@CC2-25:~$ exit
+exit
+
+Script done on Monday 08 April 2019 11:37:05 AM IST
